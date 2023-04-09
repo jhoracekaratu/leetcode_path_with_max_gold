@@ -1,4 +1,4 @@
-package org.jhorace.karatu;
+package org.maxgoldpath;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,4 +1,4 @@
-package org.jhorace.karatu;
+package maxgoldpath;
 
 /**
  * Hello world!

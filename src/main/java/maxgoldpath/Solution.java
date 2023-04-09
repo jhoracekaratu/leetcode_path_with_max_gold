@@ -1,4 +1,4 @@
-package org.jhorace.karatu;
+package maxgoldpath;
 
 public class Solution {
 
@@ -8,7 +8,7 @@ int rows=arr.length;
 int columns=arr[0].length;
 int max=0;
 for(int i=0;i<rows;i++ ){
-    for(int j=0;j<rows;j++ ){
+    for(int j=0;j<columns;j++ ){
         int gold=findMaxGold(arr,i,j,rows,columns,new boolean[rows][columns]);
 //        System.out.println(gold);
         max=Math.max(gold,max);
