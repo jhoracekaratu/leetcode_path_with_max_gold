@@ -25,7 +25,7 @@ int numberOfIslands=0;
         }
         System.out.println(numberOfIslands);
         return 0;
-    }
+    } 
 
     public void setNeighborstoZeros(int[][] arr, int i, int j, int maxRows,int maxCollumns ) {
         if(arr[i][j]==0){
